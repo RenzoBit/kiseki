@@ -1,0 +1,145 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+	font-family: Generica;
+	src: url("fuentes/Generica.otf") format("opentype");
+}
+
+body {
+	margin: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FEFEFE;
+}
+
+img {
+	border: 0px;
+}
+
+.principal {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.menu-vertical {
+	width: 212px;
+	float: left;
+	background-color: #2A2A2A;/*#262626*/
+	padding-top: 140px;
+}
+
+/*212x56*/
+.menu-elemento {
+	width: 192px;
+	padding-right: 20px;
+	height: 44px;
+	padding-top: 12px;
+	float: left;
+	text-align: right;
+}
+
+.menu-elemento a {
+	color: #FFFFFF;
+	font-size: 20pt;
+	font-family: Generica;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-elemento a:hover {
+	color: #FE6248;
+}
+
+/*212x56*/
+.menu-subelemento {
+	width: 192px;
+	padding-right: 20px;
+	height: 44px;
+	padding-top: 12px;
+	float: left;
+	background-color: gray;
+	text-align: right;
+}
+
+.menu-subelemento a {
+	color: #FFFFFF;
+	font-size: 12pt;
+	font-family: Generica;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.menu-subelemento a:hover {
+	color: #FE6248;
+}
+
+#menu-talleres, #menu-trabajos {
+	display: none;
+}
+
+.menu-social {
+	/*background-color: red;*/
+	float: left;
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 40px;
+	padding-bottom: 200px;
+}
+
+#map {
+	width: 406px;
+	height: 341px;
+}
+
+
+
+/*788*/
+.contenido {
+	background-image: url("imagenes/lineas.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+	float: left;
+	width: 718px;
+	/*arriba derecha abajo izquierda*/
+	padding: 40px 30px 0px 40px;
+}
+
+/*474*/
+.texto-1 {
+	width: 414px;
+	float: left;
+	padding: 0px 30px 30px 30px;
+	text-align: justify;
+	/*background-color: red;*/
+}
+
+.imagen-1 {
+	width: 244px;
+	float: left;
+	text-align: center;
+}
+/*312*/
+.texto-2 {
+	width: 252px;
+	float: left;
+	padding: 0px 30px 30px 30px;
+	text-align: justify;
+}
+
+.imagen-2 {
+	width: 406px;
+	float: left;
+	text-align: center;
+}
+
+.texto-3 {
+	width: 658px;
+	float: left;
+	padding: 0px 30px 30px 30px;
+	text-align: justify;
+	/*background-color: red;*/
+}
+
+.texto-titulo {
+	font-weight: bold;
+	color: #EA4728;
+}
