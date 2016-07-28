@@ -23,7 +23,7 @@ img {
 .menu-vertical {
 	width: 212px;
 	float: left;
-	background-color: #2A2A2A;/*#262626*/
+	background-color: #2A2A2A; /*#262626*/
 	padding-top: 140px;
 }
 
@@ -89,8 +89,6 @@ img {
 	width: 406px;
 	height: 341px;
 }
-
-
 
 /*788*/
 .contenido {
